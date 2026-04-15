@@ -1,19 +1,18 @@
+// Listas de imágenes
 const listaCabezas = [
-  "assets/img/cabeza1.jpg",
-  "assets/img/cabeza2.jpg",
-  "assets/img/cabeza3.avif",
+  "../base-bestiario/assets/img/cabeza1.jpg",
+  "../base-bestiario/assets/img/cabeza2.jpg",
+  "../base-bestiario/assets/img/cabeza3.png",
 ];
-
 const listaTroncos = [
-  "assets/img/tronco1.jpg",
-  "assets/img/tronco2.jpg",
-  "assets/img/tronco3.jpg",
+ "../base-bestiario/assets/img/tronco1.jpg",
+  "../base-bestiario/assets/img/tronco2.jpg",
+  "../base-bestiario/assets/img/tronco3.jpg",
 ];
-
 const listaPatas = [
-  "assets/img/patas1.jpg",
-  "assets/img/patas2.avif",
-  "assets/img/patas3.avif",
+  "../base-bestiario/assets/img/patas1.jpg",
+  "../base-bestiario/assets/img/patas2.jpg",
+  "../base-bestiario/assets/img/patas3.png",
 ];
 
 // Obtenemos los contenedores de las imágenes del HTML usando los IDs
@@ -52,3 +51,9 @@ boton.addEventListener("click", function () {
 });
 
 generarBestia();
+
+let nombre = prompt("¿Como te llamas?");
+if (nombre) {
+    saludo.innerText = holaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa, ${nombre};
+}
+generarTodo();
